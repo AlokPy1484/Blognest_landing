@@ -27,7 +27,7 @@ function Hero(){
     Your space for random thoughts and real connections. A place to like what speaks to you, comment on what resonates, follow the people you vibe with, and just be yourself.
    </div>
    <CoolMode>
-  <Button variant={"outline"} className="text-[20px] font-medium text-black mt-10 bg-white">Try Now For free <MoveRight/> </Button>
+  <Button variant={"outline"} className="text-[20px] font-medium text-black mt-10 bg-white"><a href="https://blog-nest-ui-98u2.vercel.app/" target="_blank" className="flex flex-row justify-center items-center gap-2">Try Now For free <MoveRight/> </a></Button>
 </CoolMode>
 <div className="relative overflow-hidden rounded-xl w-[80vw] h-full mt-24 md:mt-26">
   <Image src={screenshot} alt="screenshot" className="rounded-xl grayscale"/>
